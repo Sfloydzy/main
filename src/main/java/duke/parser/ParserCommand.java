@@ -8,10 +8,7 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.util.Scanner;
 
-/**
- * This is the parser for the first command.
- * @author danisheddie
- */
+
 public class ParserCommand implements IParser {
 
     /**
@@ -33,7 +30,6 @@ public class ParserCommand implements IParser {
             case "2":
                 ParserManageStudents parserManageStudents
                         = new ParserManageStudents();
-                cliView.manageStudentsHeading();
                 parserManageStudents.parseCommand();
                 break;
             case "3":

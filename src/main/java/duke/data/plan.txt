@@ -1,0 +1,12 @@
+Intensity: high
+Plan: 1
+a | 1 | 1
+wabalabadubdub | 10 | 10 | ##
+Plan: 2
+b | 2 | 2 | ##
+Intensity: moderate
+Plan: 1
+c | 3 | 3 | ##
+Intensity: relaxed
+Plan: 1
+d | 4 | 4 | ##
